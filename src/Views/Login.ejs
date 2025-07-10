@@ -1,0 +1,23 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+</head>
+<body style="height: 100vh; display: flex; align-items: center; justify-content: center;">
+    <div style="width: 300px; padding: 20px; border: 1px solid #ccc; border-radius: 5px;">
+        <h2 style="text-align: center;">Login</h2>
+        <form action="/Login" method="post">
+            <label>Name:</label>
+            <input type="text" name="username" required style="width: 100%; margin-bottom: 10px;" autocomplete="off">
+
+            <label>Password:</label>
+            <input type="password" name="password" required style="width: 100%; margin-bottom: 15px;">
+
+            <button type="submit" style="width: 100%; background-color: #472dbb; color: #fff; padding: 10px; border: none;">Login</button>
+        </form>
+        <p style="text-align: center; margin-top: 10px;">Don't have an account? <a href="/Signin">Sign up</a></p>
+    </div>
+</body>
+</html>
